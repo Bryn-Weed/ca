@@ -3,11 +3,8 @@ body {
 font: 400 15px/1.8 Lato, sans-serif;
 
     color: #777;
-    background: none !important;
 
-
-}
-h3, h4 {
+}h3, h4 {
   font-family: Lato, sans-serif;
     margin: 10px 0 30px 0;
     letter-spacing: 2px;
@@ -16,7 +13,7 @@ h3, h4 {
 }
 .container {
     padding: 80px 120px;
-    background: none !important;
+
 }
 
 .container1 {
@@ -223,6 +220,7 @@ p.ex1 {
 
 a {
   color: orange;
+
 }
 
 .navbar {
@@ -235,31 +233,33 @@ a {
     margin-top: 0;
     opacity: 0.9;
     color: orange !important;
+    padding: 0px;
 
 }
 .navbar li a, .navbar .navbar-brand {
       color: orange !important;
       font-weight: 600;
       background-color: transparent !important;
+padding: 12px;
 }
 
 .navbar-brand {
 font-family: 'Pacifico', cursive;
 font-size: 25px;
-}
 
-
-
-
-.navbar-nav li a:hover {
-    color: orange !important;
-    background-color: transparent !important;
 }
 
 .navbar-nav li.active a {
 color: black !important;
 background-color: transparent !important;
 }
+
+
+.navbar-nav li a:hover {
+    color: white!important;
+    background-color: transparent !important;
+}
+
 
 .navbar-brand img {
   height: 41px;
@@ -280,6 +280,7 @@ background-color: transparent !important;
     color: #fff;
     background-color: #555 !important;
 }
+
 .dropdown-menu li a {
 
     color: transparent !important
@@ -297,6 +298,7 @@ footer {
 footer a {
     color: #f5f5f5;
 }
+
 footer a:hover {
     color: #777;
     text-decoration: none;
@@ -330,7 +332,7 @@ textarea {
 
 }
 
-.active, .accordion:hover {
+.accordion:active, .accordion:hover {
     background: linear-gradient(90deg, white 96%, orange 4%);
     color: #333;
 }
@@ -353,6 +355,7 @@ textarea {
   height: 200px;
   position: absolute;
 }
+
 
 .processing img {
   top: 0px;
